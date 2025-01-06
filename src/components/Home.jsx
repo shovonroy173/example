@@ -10,10 +10,13 @@ const Home = () => {
   return (
     <div>
       <div className="w-[60%] m-auto pt-11">
-      <MultiCardCarousel slides={slides} />
+        <MultiCardCarousel slides={slides} />
+        <MultiCardCarousel slides={slides} />
+        <MultiCardCarousel slides={slides} />
+        <MultiCardCarousel slides={slides} />
+      </div>
     </div>
-    </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
