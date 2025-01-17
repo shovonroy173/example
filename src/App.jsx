@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./components/Home";
 import Layout from "./utils/Layout";
 import { Theme } from "@radix-ui/themes";
+import Home from "./components/pages/Home";
 function App() {
   return (
     <BrowserRouter>

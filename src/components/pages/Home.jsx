@@ -1,5 +1,6 @@
 import MultiCardCarousel from "./Carousel";
 
+
 const Home = () => {
   let slides = [
     "https://i.pinimg.com/originals/51/82/ac/5182ac536727d576c78a9320ac62de30.jpg",
@@ -9,12 +10,15 @@ const Home = () => {
   ];
   return (
     <div>
-      <div className="w-[60%] m-auto pt-11">
-        <MultiCardCarousel slides={slides} />
-        <MultiCardCarousel slides={slides} />
-        <MultiCardCarousel slides={slides} />
-        <MultiCardCarousel slides={slides} />
-      </div>
+     <MultiCardCarousel slides={slides} />
+     <MultiCardCarousel slides={slides} />
+     <MultiCardCarousel slides={slides} />
+     <MultiCardCarousel slides={slides} />
+     <MultiCardCarousel slides={slides} />
+     <MultiCardCarousel slides={slides} />
+     <MultiCardCarousel slides={slides} />
+     
+
     </div>
   );
 };
