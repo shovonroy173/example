@@ -1,4 +1,5 @@
-import MultiCardCarousel from "./Carousel";
+import MultiCarousel from "../Carousel";
+
 
 
 const Home = () => {
@@ -10,13 +11,17 @@ const Home = () => {
   ];
   return (
     <div>
-     <MultiCardCarousel slides={slides} />
-     <MultiCardCarousel slides={slides} />
-     <MultiCardCarousel slides={slides} />
-     <MultiCardCarousel slides={slides} />
-     <MultiCardCarousel slides={slides} />
-     <MultiCardCarousel slides={slides} />
-     <MultiCardCarousel slides={slides} />
+     <MultiCarousel slides={slides} />
+     <MultiCarousel slides={slides} />
+     <MultiCarousel slides={slides} />
+     <MultiCarousel slides={slides} />
+     <MultiCarousel slides={slides} />
+     <MultiCarousel slides={slides} />
+     <MultiCarousel slides={slides} />
+     <MultiCarousel slides={slides} />
+     <MultiCarousel slides={slides} />
+     <MultiCarousel slides={slides} />
+     <MultiCarousel slides={slides} />
      
 
     </div>

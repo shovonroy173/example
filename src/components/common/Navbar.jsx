@@ -5,7 +5,7 @@ import NavButton from "./NavButton.jsx";
 const Navbar = () => {
   return (
     <div className="flex items-center justify-between p-4  bg-white">
-      <div className="w-1/3 h-8">
+      <div className="h-8">
         <Searchbar />
       </div>
       <div className="flex gap-5">
